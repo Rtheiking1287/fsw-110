@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <h1 class="welcome">My Calculator</h1>
+        <link href="styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <img class="math-pic" src="https://www.elmhurst.edu/wp-content/uploads/2022/04/math-education-illustration.jpg"
+        alt="calculator" width="200px" height="150px">
+        <script src="index.js"></script>
+        <div class="add-section" id="add">
+            <h4>Addition</h4>
+            <p>
+                1st Number: <input type="text" id="addNumber1">
+            </p>
+            <p>
+                2nd Number: <input type="text" id="addNumber2">
+            </p>
+            <input type="button" onclick="addBy()" value="add" />
+            <p>The Result is: <br>
+                <span id="result1"></span>
+            </p>
+        </div>
+        <div class="sub-section" id="sub">
+            <h4>Subtraction</h4>
+            <p>
+                1st Number: <input type="text" id="subNumber1">
+            </p>
+            <p>
+                2nd Number: <input type="text" id="subNumber2">
+            </p>
+            <input type="button" onclick="subtractBy()" value="subtract" />
+            <p>The Result is: <br>
+                <span id="result2"></span>
+            </p>
+        </div>
+        <div class="mul-section" id="mul">
+            <h4>Multiplication</h4>
+            <p>
+                1st Number: <input type="text" id="mulNumber1">
+            </p>
+            <p>
+                2nd Number: <input type="text" id="mulNumber2">
+            </p>
+            <input type="button" onclick="multiplyBy()" value="multiply" />
+            <p>The Result is: <br>
+                <span id="result3"></span>
+            </p>
+        </div>
+        <div class="div-section" id="div">
+            <h4>Division</h4>
+            <p>
+                1st Number: <input type="text" id="divNumber1">
+            </p>
+            <p>
+                2nd Number: <input type="text" id="divNumber2">
+            </p>
+            <input type="button" onclick="divideBy()" value="divide" />
+            <p>The Result is: <br>
+                <span id="result4"></span>
+            </p>
+        </div>
+    </body>
+</html>

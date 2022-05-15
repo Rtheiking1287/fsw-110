@@ -1,0 +1,63 @@
+.welcome {
+    position: relative;
+    left: 600px;
+    top: 0px;
+    border: 2px black solid;
+    background-color: rgba(67, 67, 224, 0.441);
+    text-align: center;
+    color: rgb(88, 33, 33);
+    width: 20%
+    
+
+}
+
+body {
+    background-color: rgba(12, 184, 12, 0.486);
+}
+
+.add-section {
+    position: relative;
+    top: -100px;
+    left: 20%;
+    border: 2px black solid;
+    width: fit-content;
+    background-color: aqua;
+    text-align: center;
+}
+
+.sub-section {
+    position: relative;
+    top: 0px;
+    left: 20%;
+    border: 2px black solid; 
+    width: fit-content;
+    background-color: aqua;
+    text-align: center;
+}
+
+.mul-section {
+    position: relative;
+    top: -525px;
+    left: 65%;
+    border: 2px black solid;   
+    width: fit-content;
+    background-color: aqua;
+    text-align: center;
+}
+
+.div-section {
+    position: relative;
+    top: -430px;
+    left: 65%;
+    border: 2px black solid;  
+    width: fit-content; 
+    background-color: aqua;
+    text-align: center;
+}
+
+.math-pic {
+    position: relative;
+    top: 250px;
+    left: 670px;
+    border: 2px black solid;
+}
