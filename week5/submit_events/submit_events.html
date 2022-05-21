@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link href="styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <form name="myForm">
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="i.e. John Doe" name="user_name">
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" placeholder="i.e. myemail@mail.com" name="user_email">
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" placeholder="Write message here" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button onclick="myFunction()" type="submit">Send your message</button>
+                </li>
+            </ul>
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>
