@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ink By Gymbo</title>
+        <link href="styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <form name="myForm">
+            <h1>Ink By Gymbo</h1>
+            <h3>Tattoo Inquiry Form</h3>
+            <ul>
+                <li>
+                    <label for="first_name">First Name:</label>
+                    <input type="text" placeholder="i.e. Popeye"  id="first-name" name="first_name" />
+                </li>
+                <li>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" placeholder="i.e. The Sailor Man" id="last-name" name="last_name" /> 
+                </li>
+                <li>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" />
+                </li>
+                <li>
+                    <label for="decision">Have you ever gotten a tattoo before?</label>
+                    <input type="radio" name="decision" value="yes"> Yes
+                    <input type="radio" name="decision" value="no"> No
+                </li>
+                <li>
+                    <label for="return_again">How nervous are you?</label>
+                    <input type="radio" name="return_again" value="not_likely"> Not bad at all
+                    <input type="radio" name="return_again" value="somewhat_likely"> A little nervous
+                    <input type="radio" name="return_again" value="likely"> Very nervous
+                    <input type="radio" name="return_again" value="definitely"> Dead
+                </li>
+                <li>
+                    <label for="diet">Areas you're interested in getting inked?</label>
+                    <input type="checkbox" name="diet" value="on"> Arms
+                    <input type="checkbox" name="diet" value="on"> Legs
+                    <input type="checkbox" name="diet" value="on"> Chest
+                </li>
+                <li class="button">
+                    <button onclick="myFunction()" type="submit">Tell us what you think</button>
+                </li>
+            </ul>
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>
